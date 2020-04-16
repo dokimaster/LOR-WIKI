@@ -1,4 +1,4 @@
-![logo](https://i.loli.net/2020/04/16/U8LYxGHrO9Bvs1p.png)
+![logo](https://sea.playruneterra.com/assets/72517d8ecfeb270c7dfecc0f3eac01de2855a5b8/static/image/logo.png)
 
 # 符文之地传奇
 
@@ -8,8 +8,8 @@
 * 如有建议及问题，欢迎加群反馈！
 
 [Bilibili](https://space.bilibili.com/2235894)
-[Lor Wiki 目录](_sidebar.md)
-[宝箱概率](_lor/box.md)
+[符文之地传奇百科](README.md)
+
 
 
 ![](https://i.loli.net/2020/04/16/YfzJdTO35XsB6jv.jpg)

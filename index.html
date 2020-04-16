@@ -2,22 +2,112 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+  <title>LOR符文之地传奇百科</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="shortcut icon" href="https://playruneterra.com/assets/ca5997570c2319033028a3d12fa68f5091ad0db3/static/favicon.ico" type="image/x-icon" />
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      loadSidebar: true
+        // 加载 _sidebar.md
+      loadSidebar: true,
+      coverpage: true,
+      subMaxLevel: 2,
+      // onlyCover: true,
+      repo: 'https://github.com/dokimaster',
+      auto2top: true,
+      logo: '/_media/favicon.ico',
+      name: '符文之地传说',
+      themeColor: '#3F51B5',
+      autoHeader: true,
+      
+      notFoundPage: true,
+
+
+
+      //搜索插件 start
+      search: 'auto', // 默认值
+
+search : [
+  '/',            // => /README.md
+  '/_lor/box',      
+  '/_lor/error',      
+  '/_lor/jjc',       
+  '/_lor/about',       
+],
+
+// 完整配置参数
+search: {
+  maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+  paths: [], // or 'auto'
+  placeholder: 'Type to search',
+
+  // 支持本地化
+  placeholder: {
+    '/zh-cn/': '搜索',
+    '/': 'Type to search'
+  },
+
+  noData: 'No Results!',
+
+  // 支持本地化
+  noData: {
+    '/zh-cn/': '找不到结果',
+    '/': 'No Results'
+  },
+
+  // 搜索标题的最大层级, 1 - 6
+  depth: 2
+   },
+   // 搜索插件 end
+  // ...
+    pagination: {
+    previousText: '上一章节',
+    nextText: '下一章节',
+    crossChapter: true,
+    crossChapterText: true,
+  },
+  copyCode: {
+    buttonText: {
+      '/zh-cn/': '点击复制',
+      '/ru/'   : 'Скопировать в буфер обмена',
+      '/de-de/': 'Klicken Sie zum Kopieren',
+      '/es/'   : 'Haga clic para copiar',
+      '/'      : 'Copy to clipboard'
+    },
+    errorText: {
+      '/zh-cn/': '错误',
+      '/ru/'   : 'ошибка',
+      '/'      : 'Error'
+    },
+    successText: {
+      '/zh-cn/': '复制',
+      '/ru/'   : 'Скопировано',
+      '/de-de/': 'Kopiert',
+      '/es/'   : 'Copiado',
+      '/'      : 'Copied'
     }
-    window.$docsify = {
-    coverpage: true
-    }
+  },
+
+
+}
+    
+
+    
+    
+
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/emoji.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
+  <script src="//unpkg.com/docsify-copy-code"></script>
+  <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/external-script.js"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 </body>
 </html>
