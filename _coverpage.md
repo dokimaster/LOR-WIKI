@@ -1,4 +1,4 @@
-![logo](https://sea.playruneterra.com/assets/72517d8ecfeb270c7dfecc0f3eac01de2855a5b8/static/image/logo.png)
+![logo](https://i.loli.net/2020/05/13/nlGDUp5Ce6NXvbr.png)
 
 # 符文之地传奇
 
